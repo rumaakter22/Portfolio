@@ -1,0 +1,1403 @@
+@media(min-width:320px) and (max-width:575px){
+
+
+    .title h2 {
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+    
+
+    /* ========= nav start=========== */
+    .navbar-toggler{
+        border-color: #fff !important;
+        margin-top: 20px;
+    }
+    .navbar-toggler i{
+        color: #fff;
+    }
+    .navbar ul{
+        padding: 0;
+        margin-right: 0 !important;
+        background: #d6c6b2;
+        padding: 15px 0;
+        margin-top: 15px;
+        border-radius: 5px;
+    }
+    .navbar ul li{
+        display: inline-block;
+        padding: 8px 0;
+    }
+    .navbar .nav-item{
+        margin: 0 auto;
+    }
+    .navbar .nav-item a:hover{
+        color: #000 !important;
+    }
+    .navbar .nav-item .home{
+        height: 0;
+    }
+    .navbar .nav-item a{
+        color: #fff !important;
+        background: none !important;
+        padding-top: 0;
+        padding-bottom: 0;
+        transition: .4s;
+    }
+    .navbar .nav-item .overlay{
+        background: none !important;
+    }
+    /* ========= nav end=========== */
+
+
+    /* ========= banner start=========== */
+    #banner-part .item{
+        width: auto;
+        text-align: center;
+        padding-top: 160px;
+        padding-bottom: 40px;
+        transform: translate(0%);
+    }
+    #banner-part .item p{
+        font-size: 19;
+        padding-bottom: 10px;
+    }
+    #banner-part .item h2{
+        font-size: 58px;
+        padding-bottom: 6px;
+    }
+    #banner-part .item h3{
+        font-size: 58px;
+        padding-bottom: 6px;
+    }
+    #banner-part .img img{
+        display: none;
+    }
+    #banner-part .item .btn{
+        padding-top: 40px;
+        margin: 0 auto;
+    }
+    #banner-part .item .btn a {
+        font-size: 14px;
+        padding: 8px 14px;
+        margin-left: 0;
+        margin-right: 10px;
+        
+    }
+    /* ========== banner end ========== */
+
+    /* ========== about start ========== */
+    #about-part{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    #about-part img{
+        width: 100%;
+    }
+    #about-part .item .title-text h2 {
+        padding-top: 30px;
+        padding-bottom: 13px;
+        padding-left: 0px;
+    }
+    #about-part .item p {
+        padding-top: 15px;
+        padding-left: 0;
+    }
+    #about-part .item .icon-part {
+        padding-top: 40px;
+        padding-left: 0px;
+    }
+    #about-part .item .icon-part ul li {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        margin-right: 8px;
+    }
+    #about-part .item .icon-part ul li i {
+        font-size: 19px;
+    }
+    
+    /* ========== about end ========== */
+
+    /* ============service start========= */
+    #service-part .item p{
+        padding-bottom: 90px;
+    }
+    #service-part .prev{
+        width: 24px;
+        height: 24px;
+        left: 40%;
+        bottom: 8%;
+    }
+    #service-part .left::before{
+        right: 48%;
+        bottom: 8%;
+    }
+    #service-part .next{
+        width: 24px;
+        height: 24px;
+        right: 34%;
+        bottom: 8%;
+    }
+    #service-part .right::before{
+        right: 36%;
+        bottom: 8%;
+    }
+    /* ============service end========= */
+
+    /* ========== portfolio start ========== */
+    #portfolio-part {
+        position: relative;
+        padding-top: 400px;
+        padding-bottom: 55px;
+    }
+    #portfolio-part .text{
+        position: absolute;
+        top: 0 ;
+        left: 0;
+        width: 100%;
+        padding-left: 0;
+    }
+    #portfolio-part .text h2{
+        text-align: center;
+        padding-top: 40px;
+        font-size: 30px;
+    }
+    #portfolio-part .text ul{
+        margin-top: 40px;
+    }
+    #portfolio-part .text ul li{
+        display: inline-block;
+        padding: 14px 9px;
+        font-size: 19px;
+    }
+    #portfolio-part .btn a{
+        font-size: 17px;
+        padding: 11px 18px;
+        margin: 0;
+    }
+    /* ========== portfolio end ========== */
+
+    /* ========== testimonial start ========== */
+    #testimonial-part .test{
+        padding: 28px 0;
+    }
+    #testimonial-part{
+        padding-bottom: 650px;
+    }
+    #testimonial-part .item{
+        display: inline-block;
+    }
+    #testimonial-part .item .text{
+        margin-top: 20px;
+        margin-right: 0;
+        text-align: center;
+    }
+    #testimonial-part .item .text .star{
+        margin: 0 auto;
+    }
+    #testimonial-part .item .img img {
+        width: auto;
+    }
+    #testimonial-part .prev{
+        width: 24px;
+        height: 24px;
+        left: 36%;
+        bottom: -8%;
+    }
+    #testimonial-part .left::before{
+        right: 48%;
+        bottom: -11%;
+    }
+    #testimonial-part .next{
+        width: 24px;
+        height: 24px;
+        right: 36%;
+        bottom: -8%;
+    }
+    #testimonial-part .right::before{
+        right: 36%;
+        bottom: -11%;
+    }
+    /* ========== testimonial end ========== */
+
+    /* ========== pricing start ========== */
+    #pricing-part .pric{
+        padding: 40px 0 !important;
+    }
+    #pricing-part .item{
+        margin: 20px 0;
+    }
+    #pricing-part .item h2{
+        font-size: 20px;
+        padding: 16px 0;
+    }
+    #pricing-part .item .icon {
+        margin-top: 20px;
+        margin-bottom: 8px;
+        padding-bottom: 1px;
+    }
+    #pricing-part .item p {
+        font-size: 23px;
+        padding-bottom: 40px;
+    }
+    #pricing-part .item p .number {
+        font-size: 43px;
+    }
+    #pricing-part .item p::after{
+        top: 75%;
+    }
+    #pricing-part .item ul li {
+        font-size: 15px;
+        padding-bottom: 12px;
+    }
+    #pricing-part .item .btn{
+        padding-bottom: 5px;
+    }
+    #pricing-part .item .btn a {
+        font-size: 14px;
+        padding: 10px 12px;
+    }
+    /* ========== pricing end ========== */
+
+    /* ========== blog start ========== */
+    #blog-part{
+        padding-bottom: 50px;
+    }
+    #blog-part .item-one {
+        display: inline-block;
+    }
+    #blog-part .item-one .img{
+        width: 100%;
+    }
+    #blog-part .item-one .text{
+        width: 100%;
+        padding: 30px 20px;
+    }
+    #blog-part .item-one .text .top .admin{
+        margin-right: 0;
+    }
+    #blog-part .item-one .text .top{
+        font-size: 12px;
+    }
+    #blog-part .item-one .text .middle h3{
+        font-size: 17px;
+    }
+    #blog-part .item-one .text .end a{
+        font-size: 15px;
+    }
+
+    #blog-part .item-two .text .top .admin{
+        margin-right: 0;
+    }
+    #blog-part .item-two .text{
+        width: 100%;
+        padding: 30px 20px;
+    }
+    #blog-part .item-two .text .top{
+        font-size: 12px;
+    }
+    #blog-part .item-two .text .middle h3{
+        font-size: 17px;
+    }
+    #blog-part .item-two .text .middle p{
+        padding: 0;
+    }
+    #blog-part .button{
+        padding-top: 40px;
+    }
+    #blog-part .button a {
+        font-size: 15px;
+        padding: 12px 18px;
+    }
+    /* ========== blog end ========== */
+
+    /* ========== form start ========== */
+    #form-part{
+        padding-top: 60px;
+    }
+    #form-part .form .main{
+        display: inline-block;
+    }
+    #form-part .text .add i {
+        padding-right: 10px;
+    }
+    #form-part .text h3{
+        padding: 20px 0 25px 10px;
+    }
+    #form-part .text .icon ul{
+        margin-bottom: 50px;
+    }
+    #form-part .text .icon ul li {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        margin-right: 10px;
+    }
+    #form-part .text .icon ul li a {
+        font-size: 20px;
+    }
+    #form-part .form {
+        padding: 18px;
+    }
+    #form-part .form .main input {
+        width: 100%;
+        padding: 10px 0 10px 6px;
+        margin-bottom: 10px ;
+    }
+    #form-part .form .main input::placeholder{
+        font-size: 15px;
+    }
+    #form-part .form .message textarea {
+        height: 125px;
+        margin-top: 0;
+    }
+    #form-part .form .message textarea::placeholder{
+        font-size: 15px;
+    }
+    #form-part .form form button{
+        clip-path: none;
+    }
+    #form-part .form form .send {
+        width: 80px;
+        height: 35px;
+        position: initial;
+        margin: 16px auto;
+        display: block;
+        text-transform: uppercase;
+    }
+    #form-part .form form button p{
+        display: block;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+    }
+    #form-part .form form button i {
+        font-size: 24px;
+        display: none;
+    }
+    /* ========== form end ========== */
+
+    /* ========== footer start ========== */
+    footer {
+        padding: 14px 0;
+    }
+    footer p {
+        font-size: 12px;
+    }
+    /* ========== footer end ========== */
+}
+@media(min-width:350px) and (max-width:399px){
+    #service-part .left::before {
+        right: 49%;
+        bottom: -16%;
+    }
+    #testimonial-part .left::before {
+        right: 49%;
+        bottom: 10%;
+    }
+}
+@media(min-width:400px) and (max-width:499px){
+    #service-part .left::before {
+        right: 51%;
+        bottom: 10%;
+    }
+    #testimonial-part .left::before {
+        right: 51%;
+        bottom: -16%;
+    }
+}
+@media(min-width:500px) and (max-width:575px){
+    #service-part .left::before {
+        right: 53%;
+        bottom: 10%;
+    }
+    #testimonial-part .left::before {
+        right: 54%;
+        bottom: -16%;
+    }
+}
+@media(min-width:576px) and (max-width:767px){
+
+
+    .title h2 {
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+    
+
+    /* ========= nav start=========== */
+    .navbar-toggler{
+        border-color: #fff !important;
+        margin-top: 20px;
+    }
+    .navbar-toggler i{
+        color: #fff;
+    }
+    .navbar ul{
+        padding: 0;
+        margin-right: 0 !important;
+        background: #d6c6b2;
+        padding: 15px 0;
+        margin-top: 15px;
+        border-radius: 5px;
+    }
+    .navbar ul li{
+        display: inline-block;
+        padding: 8px 0;
+    }
+    .navbar .nav-item{
+        margin: 0 auto;
+    }
+    .navbar .nav-item a:hover{
+        color: #000 !important;
+    }
+    .navbar .nav-item .home{
+        height: 0;
+    }
+    .navbar .nav-item a{
+        color: #fff !important;
+        background: none !important;
+        padding-top: 0;
+        padding-bottom: 0;
+        transition: .4s;
+    }
+    .navbar .nav-item .overlay{
+        background: none !important;
+    }
+    /* ========= nav end=========== */
+
+
+    /* ========= banner start=========== */
+    #banner-part .item{
+        width: auto;
+        text-align: center;
+        padding-top: 160px;
+        padding-bottom: 40px;
+        transform: translate(0%);
+    }
+    #banner-part .item p{
+        font-size: 19;
+        padding-bottom: 10px;
+    }
+    #banner-part .item h2{
+        font-size: 58px;
+        padding-bottom: 6px;
+    }
+    #banner-part .item h3{
+        font-size: 58px;
+        padding-bottom: 6px;
+    }
+    #banner-part .img img{
+        display: none;
+    }
+    #banner-part .item .btn{
+        padding-top: 40px;
+        margin: 0 auto;
+    }
+    #banner-part .item .btn a {
+        font-size: 14px;
+        padding: 8px 14px;
+        margin-left: 0;
+        margin-right: 10px;
+        
+    }
+    /* ========== banner end ========== */
+
+    /* ========== about start ========== */
+    #about-part{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    #about-part img{
+        width: 60%;
+    }
+    #about-part .item .title-text h2 {
+        padding-top: 30px;
+        padding-bottom: 13px;
+        padding-left: 0px;
+    }
+    #about-part .item p {
+        padding-top: 15px;
+        padding-left: 0;
+    }
+    #about-part .item .icon-part {
+        padding-top: 40px;
+        padding-left: 0px;
+    }
+    #about-part .item .icon-part ul li {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        margin-right: 8px;
+    }
+    #about-part .item .icon-part ul li i {
+        font-size: 19px;
+    }
+    
+    /* ========== about end ========== */
+
+    /* ============service start======= */
+    #service-part .prev{
+        width: 24px;
+        height: 24px;
+        left: 41%;
+        bottom: 11%;
+    }
+    #service-part .left::before{
+        right: 51%;
+        bottom: 10%;
+    }
+    #service-part .next{
+        width: 24px;
+        height: 24px;
+        right: 37%;
+        bottom: 11%;
+    }
+    #service-part .right::before{
+        right: 39%;
+        bottom: 10%;
+    }
+    /* ============service end======= */
+
+    /* ========== portfolio start ========== */
+    #portfolio-part {
+        position: relative;
+        padding-top: 300px;
+        padding-bottom: 55px;
+    }
+    #portfolio-part .item{
+        display: flex;
+    }
+    #portfolio-part .item .img{
+        margin: 10px 10px;
+    }
+    #portfolio-part .item .img .overlay a i {
+        font-size: 20px;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+    }
+    #portfolio-part .item .img .overlay h2{
+        font-size: 17px;
+    }
+    #portfolio-part .item .img .overlay p{
+        font-size: 13px;
+    }
+    #portfolio-part .text{
+        position: absolute;
+        top: 0 ;
+        left: 0;
+        width: 100%;
+        padding-left: 0;
+    }
+    #portfolio-part .text h2{
+        text-align: center;
+        padding-top: 40px;
+        font-size: 30px;
+    }
+    #portfolio-part .text ul{
+        margin-top: 40px;
+    }
+    #portfolio-part .text ul li{
+        display: inline-block;
+        padding: 14px 9px;
+        font-size: 19px;
+    }
+    #portfolio-part .btn{
+        margin-top: 30px;
+    }
+    #portfolio-part .btn a{
+        font-size: 17px;
+        padding: 11px 18px;
+        margin: 0;
+    }
+    /* ========== portfolio end ========== */
+
+    /* ========== testimonial start ========== */
+    #testimonial-part{
+        padding-bottom: 736px;
+    }
+    #testimonial-part .item{
+        display: inline-block;
+    }
+    #testimonial-part .item .img {
+        width: 100% !important;
+        height: 240px;
+    }
+    #testimonial-part .item .text{
+        margin-top: 20px;
+        margin-right: 0;
+        text-align: left;
+        margin-right: 60px;
+    }
+    #testimonial-part .item .text .star {
+        width: 40% !important;
+    }
+    #testimonial-part .item .img img {
+        width: auto;
+        margin-left: initial;
+    }
+    #testimonial-part .prev{
+        width: 24px;
+        height: 24px;
+        left: 34%;
+        bottom: -13%;
+    }
+    #testimonial-part .left::before{
+        right: 56%;
+        bottom: -16%;
+    }
+    #testimonial-part .next{
+        width: 24px;
+        height: 24px;
+        right: 46%;
+        bottom: -13%;
+    }
+    #testimonial-part .right::before{
+        right: 46%;
+        bottom: -16%;
+    }
+    /* ========== testimonial end ========== */
+
+    /* ========== pricing start ========== */
+    #pricing-part .item{
+        margin: 20px 0;
+    }
+    /* #pricing-part .item h2{
+        font-size: 20px;
+        padding: 16px 0;
+    }
+    #pricing-part .item .icon {
+        margin-top: 20px;
+        margin-bottom: 8px;
+        padding-bottom: 1px;
+    }
+    #pricing-part .item p {
+        font-size: 23px;
+        padding-bottom: 40px;
+    }
+    #pricing-part .item p .number {
+        font-size: 43px;
+    }
+    #pricing-part .item p::after{
+        top: 75%;
+    }
+    #pricing-part .item ul li {
+        font-size: 15px;
+        padding-bottom: 12px;
+    }
+    #pricing-part .item .btn{
+        padding-bottom: 5px;
+    }
+    #pricing-part .item .btn a {
+        font-size: 14px;
+        padding: 10px 12px;
+    } */
+    /* ========== pricing end ========== */
+
+    /* ========== blog start ========== */
+    #blog-part{
+        padding-bottom: 50px;
+    }
+    #blog-part .item-one {
+        display: flex;
+    }
+    #blog-part .item-one .img{
+        width: 100%;
+    }
+    #blog-part .item-one .img img {
+        width: 100%;
+        height: 100%;
+    }
+    #blog-part .item-one .text{
+        width: 100%;
+        padding: 30px 20px;
+    }
+    #blog-part .item-one .text .top .admin{
+        margin-right: 0;
+    }
+    #blog-part .item-one .text .top{
+        font-size: 11px;
+    }
+    #blog-part .item-one .text .middle h3{
+        font-size: 17px;
+    }
+    #blog-part .item-one .text .end a{
+        font-size: 15px;
+    }
+
+    #blog-part .item-two{
+        display: flex;
+    }
+    #blog-part .item-two .img img{
+        height: 100%;
+    }
+    #blog-part .item-two .text .top .admin{
+        margin-right: 0;
+    }
+    #blog-part .item-two .text{
+        width: 100%;
+        padding: 20px 18px;
+    }
+    #blog-part .item-two .text .top{
+        font-size: 11px;
+    }
+    #blog-part .item-two .text .middle {
+        text-align: left;
+    }
+    #blog-part .item-two .text .middle h3{
+        font-size: 15px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    #blog-part .item-two .text .middle p{
+        padding: 0;
+        font-size: 12px;
+    }
+    #blog-part .button{
+        padding-top: 40px;
+    }
+    #blog-part .button a {
+        font-size: 15px;
+        padding: 12px 18px;
+    }
+    /* ========== blog end ========== */
+
+    /* ========== form start ========== */
+    #form-part{
+        padding-top: 60px;
+    }
+    #form-part .text .add i {
+        padding-right: 10px;
+    }
+    #form-part .text h3{
+        padding: 20px 0 25px 10px;
+    }
+    #form-part .text .icon ul{
+        margin-bottom: 50px;
+    }
+    #form-part .text .icon ul li {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        margin-right: 10px;
+    }
+    #form-part .text .icon ul li a {
+        font-size: 20px;
+    }
+    #form-part .form {
+        padding: 18px;
+    }
+    #form-part .form .main input {
+        padding: 10px 0 10px 6px;
+    }
+    #form-part .form .main input::placeholder{
+        font-size: 15px;
+    }
+    #form-part .form .message textarea {
+        height: 125px;
+    }
+    #form-part .form .message textarea::placeholder{
+        font-size: 15px;
+    }
+    #form-part .form form button {
+        width: 65px;
+        height: 65px;
+        right: 19px;
+        bottom: 20px;
+    }
+    #form-part .form form button i {
+        font-size: 27px;
+    }
+    /* ========== form end ========== */
+
+    /* ========== footer start ========== */
+    footer {
+        padding: 14px 0;
+    }
+    footer p {
+        font-size: 14px;
+    }
+    /* ========== footer end ========== */
+}
+@media(min-width:768px) and (max-width:991px){
+
+
+    .title h2 {
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+    
+
+    /* ========= nav start=========== */
+    .navbar-toggler{
+        border-color: #fff !important;
+        margin-top: 20px;
+    }
+    .navbar-toggler i{
+        color: #fff;
+    }
+    .navbar ul{
+        padding: 0;
+        margin-right: 0 !important;
+        background: #d6c6b2;
+        padding: 15px 0;
+        margin-top: 15px;
+        border-radius: 5px;
+    }
+    .navbar ul li{
+        display: inline-block;
+        padding: 8px 0;
+    }
+    .navbar .nav-item{
+        margin: 0 auto;
+    }
+    .navbar .nav-item a:hover{
+        color: #000 !important;
+    }
+    .navbar .nav-item .home{
+        height: 0;
+    }
+    .navbar .nav-item a{
+        color: #fff !important;
+        background: none !important;
+        padding-top: 0;
+        padding-bottom: 0;
+        transition: .4s;
+    }
+    .navbar .nav-item .overlay{
+        background: none !important;
+    }
+    /* ========= nav end=========== */
+
+
+    /* ========= banner start=========== */
+    #banner-part .item{
+        width: auto;
+        text-align: center;
+        padding-top: 160px;
+        padding-bottom: 40px;
+        transform: translate(0%);
+    }
+    #banner-part .item p{
+        font-size: 19;
+        padding-bottom: 10px;
+    }
+    #banner-part .item h2{
+        font-size: 58px;
+        padding-bottom: 6px;
+    }
+    #banner-part .item h3{
+        font-size: 58px;
+        padding-bottom: 6px;
+    }
+    #banner-part .img img{
+        width: 398px;
+        z-index: -1;
+    }
+    #banner-part .item .btn{
+        padding-top: 40px;
+        margin: 0 auto;
+    }
+    #banner-part .item .btn a {
+        font-size: 14px;
+        padding: 8px 14px;
+        margin-left: 0;
+        margin-right: 10px;
+        
+    }
+    /* ========== banner end ========== */
+
+    /* ========== about start ========== */
+    #about-part{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    #about-part img{
+        width: 100%;
+        margin-top: 100px;
+    }
+    #about-part .item .title-text h2 {
+        padding-top: 30px;
+        padding-bottom: 13px;
+        padding-left: 0px;
+    }
+    #about-part .item p {
+        padding-top: 15px;
+        padding-left: 0;
+        font-size: 13px;
+    }
+    #about-part .item .icon-part {
+        padding-left: 0px;
+        padding-top: 25px;
+    }
+    #about-part .item .icon-part ul li {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        margin-right: 8px;
+    }
+    #about-part .item .icon-part ul li i {
+        font-size: 19px;
+    }
+    /* ========== about end ========== */
+
+
+    /* =============service start======== */
+    #service-part .prev{
+        width: 24px;
+        height: 24px;
+        left: 43%;
+        bottom: 11%;
+    }
+    #service-part .left::before{
+        right: 51%;
+        bottom: 10%;
+    }
+    #service-part .next{
+        width: 24px;
+        height: 24px;
+        right: 39%;
+        bottom: 11%;
+    }
+    #service-part .right::before{
+        right: 41%;
+        bottom: 10%;
+    }
+    /* =============service end======== */
+
+
+    /* ========== portfolio start ========== */
+    #portfolio-part {
+        position: relative;
+        padding-top: 300px;
+        padding-bottom: 55px;
+    }
+    #portfolio-part .item{
+        display: flex;
+    }
+    #portfolio-part .item .img{
+        margin: 15px 15px;
+    }
+    #portfolio-part .item .img .overlay a i {
+        font-size: 23px;
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+    }
+    #portfolio-part .item .img .overlay h2{
+        font-size: 19px;
+    }
+    #portfolio-part .item .img .overlay p{
+        font-size: 15px;
+    }
+    #portfolio-part .text{
+        position: absolute;
+        top: 0 ;
+        left: 0;
+        width: 100%;
+        padding-left: 0;
+    }
+    #portfolio-part .text h2{
+        text-align: center;
+        padding-top: 40px;
+        font-size: 30px;
+    }
+    #portfolio-part .text ul{
+        margin: 0 40px;
+        margin-top: 40px;
+    }
+    #portfolio-part .text ul li{
+        display: inline-block;
+        padding: 20px 15px;
+        font-size: 21px;
+    }
+    #portfolio-part .btn{
+        margin-top: 30px;
+    }
+    #portfolio-part .btn a{
+        font-size: 18px;
+        padding: 12px 20px;
+        margin: 0;
+    }
+    /* ========== portfolio end ========== */
+
+    /* ========== testimonial start ========== */
+    #testimonial-part{
+        padding-bottom: 750px;
+    }
+    #testimonial-part .item{
+        display: inline-block;
+    }
+    #testimonial-part .item .img {
+        width: 100% !important;
+        height: 240px;
+    }
+    #testimonial-part .item .text{
+        margin-top: 20px;
+        margin-right: 0;
+        text-align: left;
+        margin-right: 60px;
+    }
+    #testimonial-part .item .text .star{
+        width: 40% !important;
+    }
+    #testimonial-part .item .img img {
+        width: auto;
+        margin-left: initial;
+    }
+    #testimonial-part .prev{
+        width: 24px;
+        height: 24px;
+        left: 37%;
+        bottom: -13%;
+    }
+    #testimonial-part .left::before{
+        right: 56%;
+        bottom: -16%;
+    }
+    #testimonial-part .next{
+        width: 24px;
+        height: 24px;
+        right: 46%;
+        bottom: -13%;
+    }
+    #testimonial-part .right::before{
+        right: 46%;
+        bottom: -16%;
+    }
+    /* ========== testimonial end ========== */
+
+    /* ========== pricing start ========== */
+    #pricing-part .item{
+        margin: 20px 0;
+    }
+    #pricing-part .item h2{
+        font-size: 20px;
+        padding: 14px 0;
+    }
+    #pricing-part .item .icon {
+        margin-top: 20px;
+        margin-bottom: 8px;
+        padding-bottom: 1px;
+    }
+    #pricing-part .item p {
+        font-size: 23px;
+        padding-bottom: 40px;
+    }
+    #pricing-part .item p .number {
+        font-size: 43px;
+    }
+    #pricing-part .item p::after{
+        top: 75%;
+    }
+    #pricing-part .item ul li {
+        font-size: 15px;
+        padding-bottom: 12px;
+    }
+    #pricing-part .item .btn{
+        padding-bottom: 5px;
+    }
+    #pricing-part .item .btn a {
+        font-size: 14px;
+        padding: 10px 12px;
+    }
+    /* ========== pricing end ========== */
+
+    /* ========== blog start ========== */
+    #blog-part{
+        padding-bottom: 50px;
+    }
+    #blog-part .item-one {
+        display: flex;
+    }
+    #blog-part .item-one .img{
+        width: 100%;
+        height: 290px;
+    }
+    #blog-part .item-one .img img {
+        width: 100%;
+        height: 100%;
+    }
+    #blog-part .item-one .text{
+        width: 100%;
+        padding: 30px 20px;
+    }
+    #blog-part .item-one .text .top .admin{
+        margin-right: 0;
+    }
+    #blog-part .item-one .text .top{
+        font-size: 11px;
+    }
+    #blog-part .item-one .text .middle h3{
+        font-size: 17px;
+    }
+    #blog-part .item-one .text .end a{
+        font-size: 15px;
+    }
+
+    #blog-part .item-two{
+        display: flex;
+    }
+    #blog-part .item-two .img img{
+        height: 100%;
+    }
+    #blog-part .item-two .text .top .admin{
+        margin-right: 0;
+    }
+    #blog-part .item-two .text{
+        width: 100%;
+        padding: 20px 18px;
+    }
+    #blog-part .item-two .text .top{
+        font-size: 13px;
+    }
+    #blog-part .item-two .text .middle {
+        text-align: left;
+    }
+    #blog-part .item-two .text .middle h3{
+        font-size: 19px;
+        padding-top: 30px;
+        padding-bottom: 17px;
+    }
+    #blog-part .item-two .text .middle p{
+        padding: 0;
+        font-size: 14px;
+    }
+    #blog-part .button{
+        padding-top: 50px;
+    }
+    #blog-part .button a {
+        font-size: 17px;
+        padding: 13px 20px;
+    }
+    /* ========== blog end ========== */
+
+    /* ========== form start ========== */
+    #form-part{
+        padding-top: 60px;
+    }
+    #form-part .text .add i {
+        padding-right: 10px;
+    }
+    #form-part .text .add ul li{
+        padding-left: 0;
+    }
+    #form-part .text .add ul li{
+        font-size: 15px;
+    }
+    #form-part .text h2{
+        padding-left: 0;
+        padding-bottom: 40px;
+    }
+    #form-part .text h3{
+        padding: 20px 0 25px 0;
+    }
+    #form-part .text .icon ul{
+        margin-bottom: 50px;
+    }
+    #form-part .text .icon ul li {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        margin-right: 10px;
+    }
+    #form-part .text .icon ul li a {
+        font-size: 20px;
+    }
+    #form-part .form {
+        padding: 18px;
+    }
+    #form-part .form .main{
+        display: inline-block;
+    }
+    #form-part .form .main input {
+        width: 100%;
+        padding: 10px 0 10px 6px;
+        margin: 5px 0;
+    }
+    #form-part .form .main input::placeholder{
+        font-size: 15px;
+    }
+    #form-part .form .message textarea {
+        height: 125px;
+    }
+    #form-part .form .message textarea::placeholder{
+        font-size: 15px;
+    }
+    #form-part .form form button {
+        width: 65px;
+        height: 65px;
+        right: 19px;
+        bottom: 20px;
+    }
+    #form-part .form form button i {
+        font-size: 27px;
+    }
+    /* ========== form end ========== */
+
+    /* ========== footer start ========== */
+    footer {
+        padding: 15px 0;
+    }
+    footer p {
+        font-size: 16px;
+    }
+    /* ========== footer end ========== */
+}
+@media(min-width:992px) and (max-width:1199px){
+
+    /* ========= nav start=========== */
+    nav .navbar ul {
+        margin-right: 0px !important;
+    }
+    /* ========= nav end=========== */
+
+    /* ========= banner start=========== */
+    #banner-part .img img {
+        left: 16%;
+    }
+    #banner-part .item {
+        padding-bottom: 106px;
+        transform: translate(-11%);
+    }
+    #banner-part .item p {
+        font-size: 19px;
+    }
+    #banner-part .item h2 {
+        font-size: 84px;
+    }
+    #banner-part .item h3 {
+        font-size: 68px;
+    }
+    #banner-part .item .btn {
+        padding-top: 14px;
+    }
+    #banner-part .item .btn a {
+        font-size: 15px;
+        padding: 9px 13px;
+        margin-left: 20px;
+    }
+    /* ========= banner end=========== */
+
+    /* ========= about start=========== */
+    #about-part img{
+        width: 100%;
+        margin-top: 100px;
+    }
+    #about-part .item p{
+        padding-top: 12px;
+    }
+    /* ========= about end=========== */
+
+    /* ========= portfolio start=========== */
+    #portfolio-part .item .img .overlay a i {
+        font-size: 24px;
+        width: 48px;
+        height: 48px;
+        line-height: 48px;
+    }
+    #portfolio-part .item .img .overlay p{
+        font-size: 16px;
+    }
+    #portfolio-part .item .img .overlay h2{
+        font-size: 20px;
+    }
+    #portfolio-part .text h2 {
+        font-size: 32px;
+    }
+    #portfolio-part .text ul li {
+        font-size: 21px;
+    }
+    #portfolio-part .btn a {
+        font-size: 16px;
+        padding: 14px 22px;
+        margin-top: 30px;
+        margin-right: 313px;
+    }
+    /* ========= portfolio end=========== */
+
+    /* ========= testimonial start=========== */
+    #testimonial-part .item .img img{
+        width: 90%;
+        margin-top: 20px;
+    }
+    #testimonial-part .item .text{
+        width: 100%;
+    }
+    /* ========= testimonial end=========== */
+
+    /* ========= blog start=========== */
+    #blog-part .item-one .text .top .admin {
+        margin-right: 0;
+    }
+    #blog-part .item-one .text {
+        padding: 20px;
+    }
+    #blog-part .item-one .text .top {
+        font-size: 12px;
+    }
+    #blog-part .item-one .text .middle h3 {
+        font-size: 17px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    #blog-part .item-one .text .middle p {
+        font-size: 12px;
+    }
+    #blog-part .item-one .text .end a {
+        padding-top: 15px;
+        font-size: 15px;
+    }
+
+    #blog-part .item-two .text {
+        padding: 20px;
+    }
+    #blog-part .item-two .text .top {
+        font-size: 14px;
+    }
+    #blog-part .item-two .text .top .admin {
+        margin-right: 0;
+    }
+    #blog-part .item-two .text .middle h3 {
+        font-size: 17px;
+        padding-top: 17px;
+        padding-bottom: 13px;
+    }
+    #blog-part .item-two .text .middle p {
+        padding: 0 ;
+        font-size: 13px;
+    }
+    #blog-part .item-two .text .end a {
+        font-size: 14px;
+    }
+    /* ========= blog end=========== */
+
+    /* ========= from start=========== */
+    #form-part .text .add ul li{
+        font-size: 15px;
+    }
+    #form-part .text h3 {
+        padding: 20px 0 20px 10px;
+    }
+    #form-part .text .icon ul li {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+    }
+    #form-part .text .icon ul li a {
+        font-size: 18px;
+    }
+    /* ========= from end=========== */
+}
+@media(min-width:1400px) {
+    #service-part .prev {
+        left: 47%;
+    }
+    #testimonial-part{
+        padding-bottom: 600px;
+    }
+    #testimonial-part .left::before {
+        right: 51%;
+    }
+}
